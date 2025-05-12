@@ -1,4 +1,11 @@
-﻿Console.WriteLine("Digite uma opcao: ");
+﻿ExibeMenu();
+void ExibeMenu()
+{
+    Console.Clear();
+    Console.WriteLine("Bem vindo ao programa");
+    Console.WriteLine("---------------------");
+}
+Console.WriteLine("Digite uma opcao: ");
 Console.WriteLine(
     @"
     menu de opcoes
@@ -11,6 +18,8 @@ Console.WriteLine(
 ");
 
 string entrada = Console.ReadLine()!.ToUpper().Substring(0, 1);
+TrocaCorConsole();
+Console.ResetColor();
 
 
 // Verifica se a entrada é nula ou vazia
@@ -31,4 +40,9 @@ switch (entrada)
     default:
         Console.WriteLine("Opcao invalida");
         break;
+}
+void TrocaCorConsole() {
+    Console.BackgroundColor = ConsoleColor.DarkBlue;
+    Console.ForegroundColor = ConsoleColor.White;
+    
 }
