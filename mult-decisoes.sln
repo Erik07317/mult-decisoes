@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mult-decisoes", "mult-decisoes.csproj", "{B9F5C585-0C88-23E9-CE4B-684A39DA976B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B9F5C585-0C88-23E9-CE4B-684A39DA976B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9F5C585-0C88-23E9-CE4B-684A39DA976B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9F5C585-0C88-23E9-CE4B-684A39DA976B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9F5C585-0C88-23E9-CE4B-684A39DA976B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9F035920-8EDC-44C8-8DBC-01ACB5B5B32D}
+	EndGlobalSection
+EndGlobal
